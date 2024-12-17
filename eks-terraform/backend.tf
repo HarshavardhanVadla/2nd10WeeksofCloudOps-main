@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "book-project-h"
+    bucket = "h1-3tier"
     key    = "eks/terraform.tfstate"
     region = "us-east-1"
   }
